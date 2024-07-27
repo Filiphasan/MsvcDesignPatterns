@@ -1,0 +1,12 @@
+﻿version: '3.7'
+
+networks:
+  public-network:
+    external: true
+    driver: bridge
+  private-network:
+    internal: true
+    driver: overlay
+
+
+  

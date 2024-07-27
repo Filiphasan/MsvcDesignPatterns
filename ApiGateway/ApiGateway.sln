@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{BCE48C36-6D78-4DFB-857B-1C64EC1E6045}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+		..\.gitignore = ..\.gitignore
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{99EA1A92-6B9E-4690-9E5D-2A5EF4E4BA84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{F1965C7C-2FA1-4219-A66E-C34E445641FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Category", "Services\Category\Category.csproj", "{96EE8C9E-7EDE-439D-87ED-EA43FD3598D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product", "Services\Product\Product.csproj", "{2F341FCE-46A3-4A8D-9EDF-3272474124CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1965C7C-2FA1-4219-A66E-C34E445641FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1965C7C-2FA1-4219-A66E-C34E445641FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1965C7C-2FA1-4219-A66E-C34E445641FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1965C7C-2FA1-4219-A66E-C34E445641FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96EE8C9E-7EDE-439D-87ED-EA43FD3598D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EE8C9E-7EDE-439D-87ED-EA43FD3598D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EE8C9E-7EDE-439D-87ED-EA43FD3598D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EE8C9E-7EDE-439D-87ED-EA43FD3598D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F341FCE-46A3-4A8D-9EDF-3272474124CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F341FCE-46A3-4A8D-9EDF-3272474124CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F341FCE-46A3-4A8D-9EDF-3272474124CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F341FCE-46A3-4A8D-9EDF-3272474124CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96EE8C9E-7EDE-439D-87ED-EA43FD3598D1} = {99EA1A92-6B9E-4690-9E5D-2A5EF4E4BA84}
+		{2F341FCE-46A3-4A8D-9EDF-3272474124CF} = {99EA1A92-6B9E-4690-9E5D-2A5EF4E4BA84}
+	EndGlobalSection
+EndGlobal
